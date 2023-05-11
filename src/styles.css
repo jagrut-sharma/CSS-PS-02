@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 7rem 0.5rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.card {
+  position: relative;
+}
+
+.card img {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.text {
+  text-align: center;
+  width: 400px;
+  position: absolute;
+  bottom: 0;
+  background-color: #eff2db;
+  padding: 25px 0;
+  opacity: 0.6;
+}
+
+.card2 {
+  border: 1px solid #948e8e;
+  width: max-content;
+  border-radius: 8px;
+}
+
+.card2 img {
+  width: 500px;
+  height: 400px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card2 div {
+  width: 500px;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.card3 {
+  position: relative;
+  width: max-content;
+}
+
+.card3 img {
+  width: 400px;
+  height: 300px;
+}
+
+.card-text {
+  width: 100%;
+  height: 63%;
+  position: absolute;
+  bottom: 0;
+  background-color: #1e1d1e;
+  padding: 0 1rem 1rem;
+  color: #fcfcfc;
+}
+
+.card-text p {
+  line-height: 1.5;
+  color: #838283;
+}
+
+.card-text a {
+  text-decoration: none;
+  color: #00a2eb;
+  margin-right: 0.5rem;
+  text-transform: uppercase;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.price-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 50%;
+  padding: 1rem 1.5rem 2rem;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.price-card p:first-child {
+  border: 1px solid black;
+  width: max-content;
+  padding: 10px 15px;
+}
+
+.price-card h2 {
+  font-size: 28px;
+  margin-bottom: 0.2rem;
+}
+
+.price-card p:nth-child(3) {
+  width: max-content;
+  background-color: #f8f8f8;
+  padding: 10px 15px;
+  margin-top: 0;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.price-card p:nth-child(5),
+.price-card p:nth-child(6),
+.price-card p:nth-child(7) {
+  color: #636364;
+}
+
+.price-card button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.price-card-1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: max-content;
+  padding: 1rem 2.5rem 1.5rem;
+  margin: auto;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 5px;
+}
+
+.price-card-1 h2 {
+  font-size: 32px;
+}
+
+.price-card-1 > p:nth-child(2) {
+  font-size: 24px;
+  background-color: #f9f9f9;
+  width: max-content;
+  margin: auto;
+  color: #434242;
+}
+
+.price-card-1 div {
+  margin: 1.5rem;
+}
+
+.price-card-1 div p {
+  color: #5e5e5e;
+  font-size: 18px;
+}
+
+.price-card-1 button {
+  background-color: #fe4a4a;
+  color: #ffffff;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
